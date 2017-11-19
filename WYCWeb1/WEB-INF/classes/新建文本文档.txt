@@ -1,0 +1,30 @@
+package cn.seu.edu.wyc;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+
+public class MyServlet implements Servlet{
+
+	// 初始化servlet，即将servlet装入内存，该方法只被调用一次
+	public void init(ServletConfig config) {
+	}
+	// 得到ServletConfig对象
+	public ServletConfig getServletConfig() {
+		return null;
+	}
+	//服务函数，业务逻辑代码就在这里，每次请求都会被调用
+	public void Service(ServletRequest req, ServletResponse res) throw ServletException, java.io.IOException {
+	
+	}
+	
+	// 获得Servlet配置信息
+	public java.lang.String getServletInfo() {
+		return null;
+	}
+	
+	// 销毁Servlet，从内存清除Servlet，仅调用一次
+	public void destory() {
+	
+	}
+}

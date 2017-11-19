@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Encoding"
+  id="myeclipse.1510669434340"
+  context-root="/Encoding"
+  j2ee-spec="6.0"
+  archive="Encoding.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
